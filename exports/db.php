@@ -1,6 +1,6 @@
 <?php
 
-require_once plugin_dir_path(dirname(__FILE__)) . 'wp-content'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.'multisite'.DIRECTORY_SEPARATOR.'classes'.DIRECTORY_SEPARATOR.'MultiSite_MultiDB_Boss.php';
+require_once plugin_dir_path(dirname(__FILE__)) . 'wp-content'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.'multi-DB'.DIRECTORY_SEPARATOR.'classes'.DIRECTORY_SEPARATOR.'MultiSite_MultiDB_Boss.php';
 class Multidb extends wpdb
 {
     public function __construct($dbuser, $dbpassword, $dbname, $dbhost)
